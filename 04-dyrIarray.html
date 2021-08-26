@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>01-objekter</title>
+  </head>
+  <body>
+    <article id="dyr">
+      <h3></h3>
+      <p></p>
+      <img src="" alt="" />
+    </article>
+  </body>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", start);
+    function start() {
+      let femDyr = [
+        {
+          navn: "gris",
+          type: "pattedyr",
+          billede: "http://mabe-kea.dk/E19/pics/pig.png",
+          levested: "svinefarme",
+        },
+        {
+          navn: "frø",
+          type: "amfibie",
+          levested: "sø",
+          billede: "http://mabe-kea.dk/E19/pics/frog.png",
+        },
+
+        {
+          navn: "ræv",
+          type: "pattedyr",
+          levested: "skov",
+          billede: "http://mabe-kea.dk/E19/pics/fox.png",
+        },
+
+        {
+          navn: "sild",
+          type: "fisk",
+          levested: "hav",
+          billede: "http://mabe-kea.dk/E19/pics/sild.jpg",
+        },
+
+        {
+          navn: "krokodille",
+          type: "krybdyr",
+          levested: "hav",
+          billede: "http://mabe-kea.dk/E19/pics/kroko.jpg",
+        },
+      ];
+
+      console.log(femDyr);
+
+      const visDyr = document.querySelector("#dyr");
+      const visDyrText = visDyr.querySelector("p");
+      visDyrText.textContent = `Dyr: ${dyr.navn} Type: ${dyr.type} Levested: ${dyr.levested}`;
+      visDyr.querySelector("img").src = dyr.billede;
+    }
+  </script>
+</html>
