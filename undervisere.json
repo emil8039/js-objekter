@@ -1,0 +1,22 @@
+[
+  {
+    "fornavn": "Martin",
+    "efternavn": "Bregnhøi",
+    "mail": "mabe@kea.dk",
+    "emner": ["Javascript", "CSS", "Projektstyring"]
+  },
+
+  {
+    "fornavn": "Klaus",
+    "efternavn": "Mandal",
+    "mail": "klmh@kea.dk",
+    "emner": ["Javascript", "HTML", "Tøjmode"]
+  },
+
+  {
+    "fornavn": "Louise Ea",
+    "efternavn": "Holbek",
+    "mail": "loeh@kea.dk",
+    "emner": ["SoMe", "SEO", "BMC"]
+  }
+]
